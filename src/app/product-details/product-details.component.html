@@ -1,0 +1,16 @@
+<h2>Détails du produit</h2>
+
+<div *ngIf="productDetails">
+    <h3>{{ productDetails.name }}</h3>
+    <img width="300" alt="thumbnail" [src]="productDetails.image">
+    <h4>{{ productDetails.price | currency }}</h4>
+    <p>{{ productDetails.description }}</p>
+    <table>
+      <tbody *ngFor="let feature of productDetails.features;let odd=odd;let even=even"[ngClass]="{ odd: odd, even: even }">
+        <tr class="striped_table">
+          <td>{{ feature.name }}</td>
+          <td>{{ feature.value }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

@@ -1,0 +1,14 @@
+<h2>Utilisateurs</h2>
+
+<div *ngFor="let user of userData">
+
+  <h3>
+    <a [title]="user.fname +' '+ user.lname + ' details'"
+    [routerLink]="['/users', user.id]">
+      {{ user.fname }} {{ user.lname }}
+    </a>
+  </h3>
+
+  <img width="100" alt="thumbnail" [src]="user.image" [routerLink]="['/users', user.id]">
+
+</div>

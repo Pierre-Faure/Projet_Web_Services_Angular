@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "date": "2020-09-27",
+        "amount": "78",
+        "product": "Rpi 4b, Rpi alimentation",
+        "payment": "CB"
+    },
+    {
+        "id":2,
+        "date": "2020-12-24",
+        "amount": "67",
+        "product": "Ecran Rpi",
+        "payment": "CB"
+    },
+    {
+        "id":3,
+        "date": "2021-06-15",
+        "amount": "56",
+        "product": "Capteur de mouvement, PIcamera",
+        "payment": "virement bancaire"
+    },
+    {
+        "id":4,
+        "date": "2022-10-28",
+        "amount": "75",
+        "product": "Arduino Uno Rev3, Arduino capteurs",
+        "payment": "PayPal"
+    }
+]

@@ -1,0 +1,25 @@
+<h2>Vos commandes</h2>
+
+<div>
+
+  <table class="tableau">
+      <thead>
+          <td>Date</td>
+          <td>Prix</td>
+          <td>Produit(s)</td>
+          <td>Méthode de paiment</td>
+      </thead>
+    <tbody *ngFor="let order of orderData;let odd=odd;let even=even"[ngClass]="{ odd: odd, even: even }">
+      <tr>
+        <td><a [title]="order.date + ' details'"
+            [routerLink]="['/orders', order.id]">
+              {{ order.date }}
+            </a></td>
+        <td>{{ order.amount }}</td>
+        <td>{{ order.product }}</td>
+        <td>{{ order.payment }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

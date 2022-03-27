@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Raspberry Pi 4 Model B",
+      "price": 35,
+      "image":"https://www.linuxexpres.cz/uploads/gallery/original/11237.jpg",
+      "description": "Le Raspberry Pi 4 B se démarque de tous les autres ordinateurs mono-carte en matière de performances matérielles. Il est trois fois plus rapide que le modèle 3B+ précédent, et il offre des vitesses d’affichage quatre fois plus rapides que celles d’un PC à microprocesseur x86 d’entrée de gamme.",
+      "features": [
+          {"name":"RAM", "value":"up to 8gB"},
+          {"name":"CPU", "value":"64-bit ARM Cortex-A72 (4x 1.5 GHz)"},
+          {"name":"GPU", "value":"Broadcom VideoCore VI"},
+          {"name":"Bluetooth", "value":"Bluetooth 5.0, BLE"},
+          {"name":"Audio", "value":"4-pole stereo audio"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Arduino Uno Rev3",
+      "price": 16,
+      "image":"https://tse1.mm.bing.net/th?id=OIP.3NhIq2M2yqmz3HnqI7Wd8gHaFN&pid=Api",
+      "description": "The Arduino UNO is the best board to get started with electronics and coding. If this is your first experience tinkering with the platform, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole Arduino family.",
+      "features": [
+        {"name":"MicroController", "value":"ATmega328P"},
+        {"name":"Tension", "value":"5V"},
+        {"name":"GPIO", "value":"14"},
+        {"name":"EEPROM", "value":"1 KB (ATmega328P)"},
+        {"name":"Poids", "value":"25 g"}
+    ]
+    },
+    {
+      "id": 3,
+      "name": "Beagleboard PocketBeagle",
+      "price": 30,
+      "image": "https://www.zdnet.com/a/img/resize/b1139c54ac45a272608e893f1c27859a761987fe/2021/05/21/04f7da61-fa42-4a7d-87df-056b7e8aa8f6/beagleboard-pocketbeagle-beaglebone.jpg?width=1200&fit=bounds&auto=webp",
+      "description": "Un nano ordinateur de la taille d'un porte-clés ! Parfait pour les projets où la taille et le poids sont une considération vitale. Son avantage principal: vous pouvez la brancher sur un système comme n'importe quelle autre clé USB, sans avoir besoin de câbles.",
+      "features": [
+        {"name":"RAM", "value":"512MB"},
+        {"name":"CPU", "value":"ARM Cortex-A8 (1GHZ)"},
+        {"name":"GPIO", "value":"72"},
+        {"name":"USB", "value":"USB haut débit"},
+        {"name":"Dimensions", "value":"4,2 x 2,6 x 0,8 pouces"}
+    ]
+    }
+  ]

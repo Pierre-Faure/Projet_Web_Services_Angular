@@ -1,0 +1,7 @@
+<h2>Détails de l'utilisateur</h2>
+
+<div *ngIf="userDetails">
+    <h3>{{ userDetails.fname }} {{ userDetails.lname }}</h3>
+    <img width="100" alt="thumbnail" [src]="userDetails.image">
+    <h4>Age: {{ userDetails.age }} ans</h4>
+  </div>

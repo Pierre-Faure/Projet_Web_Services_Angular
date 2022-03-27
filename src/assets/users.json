@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "fname": "Nathan",
+      "lname": "Huglo",
+      "age": 22,
+      "image":"https://www.telecom-st-etienne.fr/intranet/photos/2019_huglo_nathan.jpg"
+    },
+    {
+      "id": 2,
+      "fname": "Pierre",
+      "lname": "Faure",
+      "age": 22,
+      "image":"https://www.telecom-st-etienne.fr/intranet/photos/2019_faure_pierre.jpg"
+    },
+    {
+      "id": 3,
+      "fname": "Rémy",
+      "lname": "Girodon",
+      "age": 20,
+      "image": "https://avatars.githubusercontent.com/u/4883076?v=4"
+    }
+  ]
+

@@ -1,0 +1,9 @@
+<h2>Détails de la commande</h2>
+
+<div *ngIf="orderDetails">
+    <h3>{{ orderDetails.date | date:'longDate' }}</h3>
+    <p>{{ orderDetails.amount | currency }}</p>
+    <p>Payé par {{ orderDetails.payment }}</p>
+    <p>Contenu de la commande: {{ orderDetails.product }}</p>
+ 
+  </div>
