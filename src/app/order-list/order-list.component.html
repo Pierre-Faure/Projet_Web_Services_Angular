@@ -4,20 +4,20 @@
 
   <table class="tableau">
       <thead>
-          <td>Date</td>
-          <td>Prix</td>
-          <td>Produit(s)</td>
-          <td>Méthode de paiment</td>
+          <td>Date de la commande </td>
+          <td>Prix (en US$) </td>
+          <td>Produit(s) </td>
+          <td>Méthode de paiment </td>
       </thead>
     <tbody *ngFor="let order of orderData;let odd=odd;let even=even"[ngClass]="{ odd: odd, even: even }">
       <tr>
         <td><a [title]="order.date + ' details'"
             [routerLink]="['/orders', order.id]">
-              {{ order.date }}
+              {{ order.date }} 
             </a></td>
-        <td>{{ order.amount }}</td>
-        <td>{{ order.product }}</td>
-        <td>{{ order.payment }}</td>
+        <td>{{ order.amount }} </td>
+        <td>{{ order.product }} </td>
+        <td>{{ order.payment }} </td>
       </tr>
     </tbody>
   </table>
